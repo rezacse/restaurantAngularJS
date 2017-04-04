@@ -4,7 +4,7 @@
     angular.module('common', [])
         // .constant('ApiPath', 'https://davids-restaurant.herokuapp.com')        
         .constant('ApiPath', 'https://rezacse-course5.herokuapp.com')
-        .constant('BasePath', 'https://rezacse.github.io/restaurant')
+        .constant('BasePath', 'https://rezacse.github.io/restaurantAngularJS')
         .config(config);
 
     config.$inject = ['$httpProvider'];
